@@ -1,0 +1,22 @@
+Actors:
+  1.Customer
+  2.Theatre
+  3.System(bookmyshow)
+
+
+1. Customer: 
+  * profile(for sesnforship)
+  * location
+  * theater search based on type of seats, language, distance
+  * movie search based on genre, language, new release, 2D/3D
+  * add refreshments
+2. Theatre:
+  * movie(language, 2D/3D)/ tickets availability
+  * seating/slots arrangement
+  * food items
+3. System(bookmyshow):
+   * payment
+   * price calculation based on movie and 2D/3D
+   * notification for new movies or your bookings
+   * show QR or seat no/screen
+
